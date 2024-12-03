@@ -1,0 +1,27 @@
+.success {
+  padding: 8px;
+  border: 5px;
+  border-radius: 5px;
+  color: #fff;
+  background: skyblue;
+}
+.success:hover {
+  cursor: pointer;
+  color: pink;
+  background: #000;
+}
+
+.danger {
+  padding: 8px;
+  border: 5px;
+  border-radius: 5px;
+  color: #fff;
+  background: skyblue;
+}
+.danger:hover {
+  cursor: pointer;
+  color: pink;
+  background: #000;
+}
+
+/*# sourceMappingURL=demo.mixin.css.map */

@@ -1,0 +1,12 @@
+.register, .Log-in, .content {
+  color: pink;
+  background: #000;
+  font-size: 15rem;
+  border-radius: 5px;
+}
+
+.content {
+  max-width: 500px;
+}
+
+/*# sourceMappingURL=demo.extend.css.map */
