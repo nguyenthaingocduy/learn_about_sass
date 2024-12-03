@@ -1,0 +1,30 @@
+$screenWidth: 500px;
+
+@if ($screenWidth > 500px){
+    h1 {
+        border: 1px solid orange;
+        width: 600px;
+        padding: 10px;
+        border-radius: 5px;
+    }
+}
+
+@if ($screenWidth < 500px){
+    h1 {
+        border: 1px solid orange;
+        width: 600px;
+        padding: 10px;
+    }
+}
+
+@if ($screenWidth == 500px){
+    h1 {
+        border: 1px solid orange;
+        width: 500px;
+        padding: 10px;
+        border-radius: 5px;
+        background: #000;
+        color: pink;
+        text-transform: uppercase;
+    }
+}
