@@ -1,0 +1,25 @@
+body {
+  background-color: lightblue;
+}
+
+h1 {
+  color: white;
+  text-align: center;
+}
+
+p {
+  font-family: verdana;
+  font-size: 20px;
+}
+
+.demo {
+  counter-reset: none;
+}
+
+.container {
+  width: 300px;
+  height: 50px;
+  font-size: 21px;
+}
+
+/*# sourceMappingURL=style.css.map */

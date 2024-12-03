@@ -14,3 +14,16 @@ body {
   .demo {
     counter-reset: none;
   }
+
+  @function set_width($width) {
+    @if ($width < 10px) {
+      @return($width + 20px)
+    }
+    @return ($width)
+  }
+
+  .container {
+    width: set_width(300px);
+    height: set_width(50px);
+    font-size: set_width(1px);
+  }
