@@ -1,0 +1,10 @@
+@for $i from 1 through 5 {
+    .slider-item-#{$i} {
+        background: pink;
+        color: #000;
+        border: 1px solid #333;
+        padding: 10px;
+        margin-bottom: 10px;
+        border-radius: 5px;
+    }
+}
